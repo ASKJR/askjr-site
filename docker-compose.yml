@@ -1,0 +1,16 @@
+services:
+  web:
+    image: nginx:stable-alpine
+    container_name: web.mysite
+    environment:
+      - VIRTUAL_HOST=www.albertokato.com.br,albertokato.com.br
+    expose:
+      - "80"
+    volumes:
+      - "./:/usr/share/nginx/html"
+    restart: always
+
+networks:
+  default:
+    external:
+      name: main
