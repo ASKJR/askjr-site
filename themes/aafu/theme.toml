@@ -1,0 +1,12 @@
+name = "aafu"
+license = "MIT"
+licenselink = "https://github.com/darshanbaral/aafu/blob/master/LICENSE"
+description = "Single page portfolio theme with accordion and switchable dark/light theme"
+homepage = "https://github.com/darshanbaral/aafu"
+tags = ["portfolio", "single page"]
+features = ["responsive"]
+min_version = "0.41"
+
+[author]
+  name = "Darshan Baral"
+  homepage = "https://www.darshanbaral.com/"

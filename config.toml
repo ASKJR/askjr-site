@@ -1,0 +1,181 @@
+baseURL = "https://www.example.org/"
+languageCode = "en-us"
+theme = "aafu"
+
+[params]
+    title = "Alberto Kato"
+    author = "Alberto Kato"
+    description = "My Profile"
+    copyright = "Alberto Kato"
+    copyright_link = "#"
+
+    # Profile section
+    [params.profile]
+        name = "Alberto Kato"
+		tagline = "Web Developer"
+		location = "Curitiba - PR, Brazil "
+        photo = "profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-linkedin-in"
+        url = "https://www.linkedin.com/in/alberto-kato/"
+        title = "LinkedIn"
+		
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-stack-overflow"
+        url = "https://stackoverflow.com/users/4268039/alberto-kato"
+        title = "StackOverflow"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "https://github.com/ASKJR"
+        title = "GitHub"
+				
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "(B.Tech) Information Technology"
+        college = "Federal University of Parana, Curitiba - PR / Brazil"
+        dates = "2012 - 2016"
+        thesis_title = "COAVALIEITOR - Peer Assessment Support System"
+        thesis_link = "https://acervodigital.ufpr.br/bitstream/handle/1884/44779/Kato.pdf?sequence=1&isAllowed=y"
+        gpa = "79 / 100"
+        [[params.education.list]]
+        degree = "B.S. Computer Science"
+        college = "Carroll University, Waukesha - WI / USA"
+        dates = "Aug/2015 - Apr/2016"
+        description="Computer Science Exchange Student for two semesters (Fall 2015, Spring 2016). Sponsored by Federal Government of Brazil through BSMP (Brazilian Scientific Mobility Program) - CAPES."
+        gpa="3.78 / 4.00"
+    # Hobbies section
+    [params.hobbies]
+        title = "Hobbies"
+		
+        [[params.hobbies.list]]		
+		hobby = "Gaming"
+		
+        [[params.hobbies.list]]		
+		hobby = "Programming"
+
+        [[params.hobbies.list]]		
+		hobby = "Reading"
+        
+        [[params.hobbies.list]]		
+		hobby = "Cooking"
+
+        [[params.hobbies.list]]		
+		hobby = "Running"
+
+
+    # Publication section
+    # [params.publication]
+    #     title = "Publications"
+
+    #     [[params.publication.list]]
+    #     title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #     authors = "F Last, F Second, P secondary"
+    #     date = "2018"
+    #     journal = "Journal of Field 52 (16), 9033-9044"
+    #     link = "#"
+
+    #     [[params.publication.list]]
+    #     title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #     authors = "F Last, F Second, P secondary"
+    #     date = "2018"
+    #     journal = "Journal of Field 52 (16), 9033-9044"
+    #     link = "#"
+		
+    #     [[params.publication.list]]
+    #     title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #     authors = "F Last, F Second, P secondary"
+    #     date = "2018"
+    #     journal = "Journal of Field 52 (16), 9033-9044"
+    #     link = "#"
+		
+    #     [[params.publication.list]]
+    #     title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #     authors = "F Last, F Second, P secondary"
+    #     date = "2018"
+    #     journal = "Journal of Field 52 (16), 9033-9044"
+    #     link = "#"
+
+    # Experiences section
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "Full Stack Developer"
+        dates = "Jan/2019 - *Present*"
+        link = "https://redeglobo.globo.com/rpc/"
+        company = "RPC"
+        details = "companies/rpc.html"
+
+        [[params.jobs.list]]
+        position = "Jr. Web Developer"
+        dates = "Aug/2016 - June/2018"
+		link = "http://jaentendi.com.br/"
+        company = "Já Entendi"
+        details = "companies/jaentendi.html"
+
+        [[params.jobs.list]]
+        position = "Web Developer - Intern"
+        dates = "June/2013 - June/2014"
+		link = "http://www.actuary.com.br/"
+        company = "Actuary"
+        details = "companies/actuary.html"
+
+    # Projects section
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "Pokemon - The Memory Game"
+        url = "http://pokemon.albertokato.com.br/"
+        description = "*Practice of JavaScript, HTML and CSS."
+		
+        [[params.projects.list]]
+        title = "banned-passwords"
+        url = "https://www.npmjs.com/package/banned-passwords"
+        description = "Verify if a password is in the Twitter's List Of Banned Passwords."
+
+        [[params.projects.list]]
+        title = "Jankenpon/Rock-Paper-Scissors"
+        url = "https://jankenpon.herokuapp.com/"
+        description = "*Practice of React.js, Material-ui, Bootstrap."
+		
+        [[params.projects.list]]
+        title = "tic-tac-toe"
+        url = "https://tic-tac-toe-askjr.herokuapp.com"
+        description = "*Practice of JavaScript, HTML and CSS."
+		
+        [[params.projects.list]]
+        title = "getWeather()"
+        url = "https://repl.it/@AlbertoKato/getWeather"
+        description = "Web Scraping the current weather in Brazilian cities using Python 3 + BeautifulSoup."
+
+    # Skills section
+    [params.skills]
+        icon = "fa-cogs"
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "PHP, Laravel, Mysql, SQL, Git, Linux"
+        skillrating = 85
+                
+        [[params.skills.list]]
+        skill = "HTML, CSS, Javascript, Bootstrap"
+        skillrating = 67
+		
+        [[params.skills.list]]
+        skill = "Java, React, Node.js, Docker, C/C++, Python"
+        skillrating = 40
