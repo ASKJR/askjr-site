@@ -12,7 +12,7 @@ theme = "aafu"
     # Profile section
     [params.profile]
         name = "Alberto Kato"
-		tagline = "Web Developer"
+		tagline = "Full Stack Developer"
 		location = "Curitiba - PR, Brazil "
         photo = "profile.jpg"
 
@@ -114,33 +114,46 @@ theme = "aafu"
 
         [[params.jobs.list]]
         position = "Full Stack Developer"
-        dates = "Jan/2019 - *Present*"
+        dates = "Jan/2019 - Jan/2020"
         link = "https://redeglobo.globo.com/rpc/"
-        company = "RPC"
+        company = "RPC - Curitiba / Brazil"
         details = "companies/rpc.html"
 
         [[params.jobs.list]]
         position = "Jr. Web Developer"
         dates = "Aug/2016 - June/2018"
 		link = "http://jaentendi.com.br/"
-        company = "Já Entendi"
+        company = "Já Entendi - Curitiba / Brazil"
         details = "companies/jaentendi.html"
 
         [[params.jobs.list]]
         position = "Web Developer - Intern"
         dates = "June/2013 - June/2014"
 		link = "http://www.actuary.com.br/"
-        company = "Actuary"
+        company = "Actuary - Curitiba / Brazil"
         details = "companies/actuary.html"
+
+        [[params.jobs.list]]
+        position = "Help Desk - Intern"
+        dates = "August/2012 - July/2013"
+		link = "https://www.ufpr.br/"
+        company = "UFPR - Curitiba / Brazil"
+        details = "companies/ufpr.html"
 
     # Projects section
     [params.projects]
         icon = "fa-project-diagram"
         title = "Projects"
 
+        
+        [[params.projects.list]]
+        title = "Quiz Game"
+        url = "https://quiz.albertokato.com.br/"
+        description = "VueJS, Vuex, Vue Router, Buefy, Axios, Docker, Firebase"
+
         [[params.projects.list]]
         title = "Pokemon - The Memory Game"
-        url = "http://pokemon.albertokato.com.br/"
+        url = "https://pokemon.albertokato.com.br/"
         description = "*Practice of JavaScript, HTML and CSS."
 		
         [[params.projects.list]]
@@ -169,13 +182,18 @@ theme = "aafu"
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "PHP, Laravel, Mysql, SQL, Git, Linux"
+        skill = "BACKEND: PHP, Node.js, Python"
         skillrating = 85
                 
         [[params.skills.list]]
-        skill = "HTML, CSS, Javascript, Bootstrap"
-        skillrating = 67
+        skill = "FRONTEND: React, VueJS, HTML, CSS, JS, Bootstrap, Bulma"
+        skillrating = 70
 		
         [[params.skills.list]]
-        skill = "Java, React, Node.js, Docker, C/C++, Python"
-        skillrating = 40
+        skill = "DATA: MySQL, PostgreSQL, Firebase, SQL, ORM, PowerBI"
+        skillrating = 75
+		
+
+        [[params.skills.list]]
+        skill = "MISCELLANEOUS: Docker, Linux, DevOps, CI, AWS, GIT, GitLab, Nginx"
+        skillrating = 50
