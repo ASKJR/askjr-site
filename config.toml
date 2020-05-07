@@ -150,31 +150,37 @@ theme = "aafu"
         title = "Quiz Game"
         url = "https://quiz.albertokato.com.br/"
         description = "VueJS, Vuex, Vue Router, Buefy, Axios, Docker, Firebase"
+        source = "https://github.com/ASKJR/quiz-game"
 
         [[params.projects.list]]
         title = "Pokemon - The Memory Game"
         url = "https://pokemon.albertokato.com.br/"
-        description = "*Practice of JavaScript, HTML and CSS."
+        description = "JavaScript, JQuery, HTML, CSS and Bootstrap"
+        source = "https://github.com/ASKJR/memoryGame"
 		
         [[params.projects.list]]
         title = "banned-passwords"
         url = "https://www.npmjs.com/package/banned-passwords"
-        description = "Verify if a password is in the Twitter's List Of Banned Passwords."
+        description = "npm package"
+        source = "https://github.com/ASKJR/banned-passwords"
 
         [[params.projects.list]]
         title = "Jankenpon/Rock-Paper-Scissors"
         url = "https://jankenpon.herokuapp.com/"
-        description = "*Practice of React.js, Material-ui, Bootstrap."
-		
+        description = "React.js, Material-ui, Bootstrap."
+		source = "https://github.com/ASKJR/jankenpon"
+        
         [[params.projects.list]]
         title = "tic-tac-toe"
         url = "https://tic-tac-toe-askjr.herokuapp.com"
-        description = "*Practice of JavaScript, HTML and CSS."
+        description = "JavaScript, JQuery, HTML, CSS and Bootstrap"
+        source = "https://github.com/ASKJR/tic-tac-toe"
 		
         [[params.projects.list]]
         title = "getWeather()"
         url = "https://repl.it/@AlbertoKato/getWeather"
-        description = "Web Scraping the current weather in Brazilian cities using Python 3 + BeautifulSoup."
+        description = "Web Scraping the current weather in Brazilian cities using Python 3 + BeautifulSoup"
+        source = "https://github.com/ASKJR/getWeather"
 
     # Skills section
     [params.skills]
