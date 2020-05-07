@@ -12,6 +12,6 @@ var darkTheme = {
   toggleIcon: "fa-toggle-on"
 };
 
-var isDark = false;
+var isDark = true;
 
 var themeColor = document.querySelector("meta[name=theme-color]");

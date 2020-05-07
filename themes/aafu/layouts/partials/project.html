@@ -1,4 +1,4 @@
-<h2 class="accordion w-100 text-primary">
+<h2 class="accordion w-100 text-warning">
     <i class="fas {{ .Site.Params.projects.icon }}"></i>
     {{ .Site.Params.projects.title }}
 </h2>
@@ -6,10 +6,10 @@
     <dl>
         {{ range.Site.Params.projects.list }}
         <dt>
-            <a class="text-primary" href="{{ .url }}"><code>{{ .title }}</code></a>
+            <a class="text-warning" href="{{ .url }}"><code>{{ .title }}</code></a>
         </dt>
-        <dd class="text-dark mb-0 ml-3">{{ .description | markdownify }}
-            <a class="text-primary" href="{{ .source }}"> <i class="fab fa-github-alt"></i></a>
+        <dd class="text-white mb-0 ml-3">{{ .description | markdownify }}
+            <a class="text-warning" href="{{ .source }}"> <i class="fab fa-github-alt"></i></a>
         </dd>
 
         {{ end }}
