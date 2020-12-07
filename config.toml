@@ -113,6 +113,13 @@ theme = "aafu"
         title = "Experience"
 
         [[params.jobs.list]]
+        position = "Backend Engineer"
+        dates = "Aug/2020 - Present"
+        link = "https://nzn.io/"
+        company = "NZN - Curitiba / Brazil"
+        details = "companies/nzn.html"
+        
+        [[params.jobs.list]]
         position = "Full Stack Developer"
         dates = "Jan/2019 - Jan/2020"
         link = "https://redeglobo.globo.com/rpc/"
