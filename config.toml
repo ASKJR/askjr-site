@@ -12,8 +12,8 @@ theme = "aafu"
     # Profile section
     [params.profile]
         name = "Alberto Kato"
-		tagline = "Full Stack Developer"
-		location = "Curitiba - PR, Brazil "
+		    tagline = "Software Engineer"
+		    location = "Curitiba - PR, Brazil "
         photo = "profile.jpg"
 
     # Section for links to social websites
@@ -112,9 +112,17 @@ theme = "aafu"
         icon = "fa-briefcase"
         title = "Experience"
 
+        
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "May/2021 - Present"
+        link = "https://www.volvogroup.com/"
+        company = "Volvo Group"
+        details = "companies/volvo.html"
+
         [[params.jobs.list]]
         position = "Backend Engineer"
-        dates = "Aug/2020 - Present"
+        dates = "Aug/2020 - Mar/2021"
         link = "https://nzn.io/"
         company = "NZN - Curitiba / Brazil"
         details = "companies/nzn.html"
@@ -195,18 +203,18 @@ theme = "aafu"
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "BACKEND: PHP, Node.js, Python"
-        skillrating = 85
-                
-        [[params.skills.list]]
-        skill = "FRONTEND: React, VueJS, HTML, CSS, JS, Bootstrap, Bulma"
-        skillrating = 70
-		
-        [[params.skills.list]]
-        skill = "DATA: MySQL, PostgreSQL, Firebase, SQL, ORM, PowerBI"
-        skillrating = 75
-		
+        skill = "BACKEND: C#, NodeJS, and PHP."
+        skillrating = 100
 
         [[params.skills.list]]
-        skill = "MISCELLANEOUS: Docker, Linux, DevOps, CI, AWS, GIT, GitLab, Nginx"
+        skill = "DATABASE: MySQL, PostgreSQL, Firebase, SQL, ORM, PowerBI, and MongoDB."
+        skillrating = 100
+
+        [[params.skills.list]]
+        skill = "MISCELLANEOUS: Docker, Linux, DevOps, CI, AWS, GIT, GitLab, and Nginx"
         skillrating = 50
+
+        [[params.skills.list]]
+        skill = "FRONTEND: React, VueJS, HTML, CSS, JS, Bootstrap, and Bulma."
+        skillrating = 40		
+
