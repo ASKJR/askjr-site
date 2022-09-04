@@ -8,7 +8,7 @@ services:
     expose:
       - "80"
     volumes:
-      - "./:/usr/share/nginx/html"
+      - "./public:/usr/share/nginx/html"
     restart: always
 
 networks:
