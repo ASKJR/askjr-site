@@ -4,7 +4,7 @@ services:
     image: nginx:stable-alpine
     container_name: web.mysite
     environment:
-      - VIRTUAL_HOST=www.albertokato.com.br,albertokato.com.br
+      - VIRTUAL_HOST=www.albertokato.com,albertokato.com
     expose:
       - "80"
     volumes:
