@@ -163,13 +163,13 @@ theme = "aafu"
         
         [[params.projects.list]]
         title = "Quiz Game"
-        url = "https://quiz.albertokato.com.br/"
+        url = "https://quiz.albertokato.com/"
         description = "VueJS, Vuex, Vue Router, Buefy, Axios, Docker, Firebase"
         source = "https://github.com/ASKJR/quiz-game"
 
         [[params.projects.list]]
         title = "Pokemon - The Memory Game"
-        url = "https://pokemon.albertokato.com.br/"
+        url = "https://pokemon.albertokato.com/"
         description = "JavaScript, JQuery, HTML, CSS and Bootstrap"
         source = "https://github.com/ASKJR/memoryGame"
 		
